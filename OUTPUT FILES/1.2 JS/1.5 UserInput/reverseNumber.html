@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReverseNumber</title>
+</head>
+<body>
+    <button onclick="reverseNum()">
+        Reverse
+    </button>
+    <p id="demo">
+        
+    </p>
+    <script>
+        
+        function reverseNum(){
+            var n,r,s;
+            n = prompt("Enter your Number");
+            s = 0;
+            temp = n;
+            while(n > 0){
+                r = n % 10;
+                s = s *10 + r;
+                n = parseInt(n/10);
+            }
+            document.getElementById('demo').innerHTML = s;
+        }
+    </script>
+    </body>
+</html>

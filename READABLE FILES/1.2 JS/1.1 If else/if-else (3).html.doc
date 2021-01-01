@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nested-If</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var pr = 69;
+        if(pr >=75){
+            document.write("Distinction");
+        }
+        else if(pr>=60){
+            document.write("First Class");
+        }
+        else if(pr >= 50){
+            document.write("Higher Second Class");            
+        }else if(pr >= 35){
+            document.write("Second Class");
+        }else{
+            document.write("Fail");
+        }
+    </script>
+</body>
+</html>

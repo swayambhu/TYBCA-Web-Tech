@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Nested table</title>
+	</head>
+	<body>
+		<table border="1" align="center">
+			<tr>
+				<td>
+					<table border="3" bordercolor="red">
+						<tr>
+							<th>name</th>
+							<th>salary</th>
+						</tr>
+						<tr>
+							<td>Ramesh</td>
+							<td>20000</td>
+						</tr>
+					</table>
+				</td>
+				<td>1st row 2nd col</td>
+			</tr>
+			<tr>
+				<td>2nd row 1st col</td>
+				<td>2nd row 2nd col</td>
+			</tr>
+		</table>
+	</body>
+</html> 

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furnishing</title>
+</head>
+<body>
+    <h1><em>Furnishing</em></h1>
+    <ol type="I">
+        <li>Sofa</li>
+        <li>Dinning Table</li>
+        <li>Chairs</li>
+        <li>Tv unit</li>
+    </ol>
+</body>
+</html>

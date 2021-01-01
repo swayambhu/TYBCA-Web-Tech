@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Improvement</title>
+</head>
+<body>
+    <h1><em>Home Improvement</em></h1>
+    <ol type="I">
+        <li>Landscaping</li>
+        <li>Attic</li>
+        <li>Replacement windows</li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Frames</title>
+   </head>
+	
+   <frameset bordercolor="yellow"  rows = "40%,30%,*">
+     
+      <frame marginwidth="10" name = "top" src = "physical%20tags.html" />
+      
+      <frameset cols="50%,50%">
+         
+          <frame name = "main" src = "fontTags.html"/>
+          <frame name = "main" src = "anchor%20tag.html"/>
+          
+      </frameset>
+      
+      <frame name="bottom" src = "anchor%20tag.html" />
+   
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+      
+   </frameset>
+   
+</html>

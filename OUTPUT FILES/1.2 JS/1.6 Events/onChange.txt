@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS - Event Listener</title>
+</head>
+<body>
+<!--    onchange-->
+Enter your Name:
+<input type="text" name="txt" value="Hello" onchange="myChange(this.value)">
+
+<script>
+    function myChange(val){
+        alert('Input value has changed '+ val);
+    }
+</script>
+
+</body>
+</html>

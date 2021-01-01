@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>windows.prompt</title>
+    
+</head>
+<body>
+   <button onclick='myFunction()'>
+       Click me! 
+   </button>
+    <p id="demo">
+        
+    </p>
+    <script>
+        function myFunction(){
+            var person = prompt("Enter your name:");
+            if(person !=null){
+                document.getElementById('demo').innerHTML='Hello '+person+' how are you?';
+            }
+        }
+    </script>
+</body>
+</html>

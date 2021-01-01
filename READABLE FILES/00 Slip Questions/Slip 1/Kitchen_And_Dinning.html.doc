@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitchen and Dinning</title>
+</head>
+<body>
+    <h1><em>Kitchen and Dinning</em></h1>
+    <ol type="I">
+        <li>Cookware</li>
+        <li>Kitchen Ware</li>
+        <li>Bakeware</li>
+    </ol>
+</body>
+</html>

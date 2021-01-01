@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var arr = new Array("Orange","mango","Banana","Apple");
+        var sorted = arr.sort();
+        document.write("Return String is :<br>"+ sorted);
+    </script>
+</body>
+</html>

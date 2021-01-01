@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-style: italic;">Home and kitchen Appliances</h1>
+    <ul type="square">
+        <a href="Kitchen_And_Dinning.html" target="_blank">
+            <li>Kitchen & Dinning</li>
+        </a>
+        
+        <a href="furnishing.html" target="_blank">
+            <li>Furnishing</li>
+        </a>
+        
+        <a href="Home%20decor.html" target="_blank">
+            <li>Home Decor</li>
+        </a>
+        
+        <a href="Home%20imporvement.html" target="_blank">
+            <li>Home Improvement</li>
+        </a>
+        
+    </ul>
+</body>
+</html>

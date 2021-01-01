@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OnLoad and UnLoad</title>
+</head>
+<body>
+    <iframe onload="myFunction()" src="mouseDown.html"
+       frameborder="2">
+        
+    </iframe>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){ 
+            document.getElementById('demo').innerHTML="Your frame is loaded";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Decor</title>
+</head>
+<body>
+    <h1><em>Home Decor</em></h1>
+    <ol type="I">
+        <li>Clock</li>
+        <li>Vase</li>
+        <li>Lamps</li>
+    </ol>
+</body>
+</html>

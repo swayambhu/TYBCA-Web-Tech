@@ -1,0 +1,78 @@
+<!--
+Table tags and attributes
+<TABLE>...</TABLE>	                Generates a table
+
+
+<TABLE border="pixels">	            Sets the size of cell borders
+
+
+<TABLE cellspacing="pixels">	    Sets the amount of space between cells
+
+
+<TABLE cellpadding="pixels">	    Sets the amount of space between a border and cell content
+
+
+<TABLE height="pixels" or "%">	    Sets the height of a table
+
+
+<TABLE width="pixels" or "%">	    Sets the width of a table
+
+
+<TD>...</TD>	                    Defines a table data cell
+
+
+<TD colspan="columns">	            Sets a cell to span columns
+
+
+<TD rowspan="rows">	                Sets a cell to span rows
+
+
+<TD nowrap>	                        Prevents the lines within a cell from wrapping
+
+
+<TH>...</TH>	                    Defines a table header with bold, centered table data
+
+
+<TR>...</TR>	                    Defines a table row
+
+<TR align="?"> or <TD align="?">	Aligns the contents of a row or cell to the left, right, or center
+
+
+<TR valign="?"> or <TD valign="?">	Sets the vertical alignment of a row or cell to the top, middle, or bottom
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+</head>
+<body>
+    <h3>table</h3>
+    <table border="1" width="200">
+     <tr>
+         <th rowspan="2"> Month</th>
+         <th colspan="2">Price</th>
+         
+         <th colspan="2">Total</th>
+     </tr>
+     <tr>
+         <th>Original</th>
+         <th>Discount</th>
+         <th>a</th>
+         <th>b</th>
+     </tr> 
+      <tr>
+          <td>January</td>
+          <td rowspan="2">$150</td>
+          <td>$50</td>
+          <td rowspan="2">$150</td>
+          <td>$12</td>
+      </tr>
+      <tr>
+          <td>February</td>
+          <td>$50</td>
+      </tr>
+      
+    </table>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Login form</h1>
+
+<form action="table.txt" method="get" target="_blank">
+ 
+  <label for="fname">Username:</label>
+  <input type="text" id="fname" name="fname" placeholder="Username" value="swayambhu"><br><br>
+  
+  
+  <label for="lname" placeholder="Username">Password:</label>
+  <input type="password" id="lname" name="lname" placeholder="Password"><br><br>
+
+  <label>Fname:</label>
+  <input type="text" name="fname" size="10" maxlength="10"><br><br>
+  
+  <label for="hide">hidden</label>
+  <input type="hidden" name="hname" size="10" maxlength="10" value="1223213"><br><br>
+  
+  <input type="button" value="click me!">
+  <input type="reset" value="reset">
+  <input type="submit" value="Submit">
+  
+  
+  <h1>Radio Button</h1>
+  <input type="radio" name="gender" value="male">
+  <label>male</label>
+  <input type="radio" name="gender" value="female" checked>
+  <label>female</label>
+  
+  <h1>Checkbox</h1>
+  <input type="checkbox" name="web" value="WEB" checked>
+    <label>Web</label>
+  <input type="checkbox" name=".net" value=".NET">
+    <label>.NET</label>
+    <input type="checkbox" name="java" value="java">
+    <label>java</label><br>
+    <input type="submit" value="Select subject">
+    
+    <h1>Dropdown</h1>
+    <select name="dropdownlist">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        
+    </select>
+</form>
+
+</body>
+</html>

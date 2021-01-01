@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var alpha = ["x","y","z"];
+        var num1 = [1,2,3];
+        var aplhaNum = num1.concat(alpha);
+        document.write("AlphaNumeric = "+aplhaNum);
+    </script>
+</body>
+</html>
