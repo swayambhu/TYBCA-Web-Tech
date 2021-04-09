@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial JS</title>
+</head>
+<body>
+    <script>
+        function fact(n){
+            var f = 1;
+            for(var i = 1; i <=n; i++){
+                f *= i;
+            }
+            return f;
+        }
+
+        var f1 = fact(window.prompt("Enter Number"));
+        document.write(f1);
+    </script>
+</body>
+</html>
